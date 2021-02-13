@@ -201,7 +201,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (this.readyState === this.DONE) {
 
                 // redirect to home page once product has been added
-                window.location.href = "/index.html";
+                window.location.href = "index.html";
             }
         });
         
