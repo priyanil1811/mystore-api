@@ -1,0 +1,117 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.page-header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color:#26A4EC;
+    padding: 1em 2em;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 0.6em;
+}
+
+.button {
+    background-color: #0059C7;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+} 
+
+.productByCategories {
+    padding: 2em;
+}
+
+.categories {
+    float: left;
+    background-color: #eee;
+    border: 3px solid #0059C7;
+    margin-right: 2em;
+}
+
+.categories li {
+    list-style-type: none;
+    padding: 1.5em 5em;
+    text-align: center;
+}
+
+.categories li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #000000;
+}
+
+.categories li:hover {
+    background-color: #ccc;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2em;
+}
+
+.product {
+    padding: 1em;
+    font-size: 18px;
+    background-color: #B0D8F7;
+    text-align: center;
+    line-height: 25px;
+}
+
+input[type=text], input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit]:hover {
+    background-color: #26A4EC;
+}
+  
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+h3 {
+    margin: 2em 0;
+    text-align: center;
+    font-size: 22px;
+}

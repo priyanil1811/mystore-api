@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="page-header">
+        <a href="index.html" class="logo">MY STORE</a>
+    </header>
+
+    <h3>Create New Product</h3>
+
+    <div class="form-container">
+        <form onsubmit="event.preventDefault();">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Product name..">
+
+            <label for="price">Price</label>
+            <input type="number" id="price" name="price" placeholder="Product price">
+
+            <label for="manufacturer">Manufacturer</label>
+            <input type="text" id="manufacturer" name="manufacturer" placeholder="Manufacturer">
+
+            <label for="category">Category</label>
+            <input type="text" id="category" name="category" placeholder="Category">
+
+            <label for="description">Description</label>
+            <input type="text" id="description" name="description" placeholder="Description">
+            
+            <input type="submit" class="button" id="btnSubmit" value="Submit">
+        </form>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
